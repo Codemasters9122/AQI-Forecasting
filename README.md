@@ -1,6 +1,4 @@
-No problem! Here's the updated README with the **Beijing PM2.5 Dataset** and the target variable as **PM2.5**.
 
----
 
 # Time-series Forecasting Project
 
@@ -99,15 +97,3 @@ python predict.py --input "data/test_data.csv" --output "results/predictions.csv
 - **Model Improvement**: Explore additional features, such as integrating external weather datasets and pollution sources (e.g., satellite data).
 - **Deployment**: Set up an API or a dashboard for real-time PM2.5 forecasting.
 - **Seasonality Adjustments**: Further work to refine seasonal components, especially during high-pollution periods like winter and holidays.
-  
-## Contributors
-- **Your Name** - Lead Developer
-- **Contributor 1** - Data Preprocessing
-- **Contributor 2** - Model Training and Evaluation
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to update the details specific to your implementation, such as models, results, and any other information relevant to your project.
