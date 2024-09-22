@@ -50,43 +50,15 @@ To set up the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/pm2.5-forecasting.git
+git clone https://github.com/Codemasters9122/AQI-forecasting.git
 cd pm2.5-forecasting
-```
-
-### 2. Install dependencies
-Ensure you have Python installed, then install the required packages:
-```bash
-pip install -r requirements.txt
 ```
 
 ### 3. Download the dataset
 Place the **Beijing PM2.5 Dataset** in the `data/` directory.
 
-## Usage
-### 1. Data Preprocessing
-Run the script to preprocess the data and generate the required features:
-```bash
-python preprocess.py
+a.csv" --output "results/predictions.csv"
 ```
-
-### 2. Training the Model
-To train the PM2.5 forecasting model, run the following command:
-```bash
-python train.py --model lgbm  # or 'arima', 'prophet', 'lstm', etc.
-```
-
-### 3. Making Predictions
-After training, use the saved model to make PM2.5 predictions:
-```bash
-python predict.py --input "data/test_data.csv" --output "results/predictions.csv"
-```
-
-## Results
-  
-- **Visualization**:
-  - Predicted vs. Actual PM2.5 values are visualized as line charts.
-  - 
 
 ## Future Work
 - **Model Improvement**: Explore additional features, such as integrating external weather datasets and pollution sources (e.g., satellite data).
