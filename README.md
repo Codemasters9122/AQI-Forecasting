@@ -35,11 +35,9 @@ The dataset is sourced from [UCI Machine Learning Repository](https://archive.ic
    - **Time Series Models**:
      - ARIMA
      - SARIMA
-     - Prophet
    - **Machine Learning Models**:
-     - Random Forest
-     - Gradient Boosting (XGBoost, LightGBM)
      - Long Short-Term Memory (LSTM) Networks
+     - Gated Recurrent Units (GRUs)
 
 ### 3. **Evaluation Metrics**
    The performance of each model is evaluated using the following metrics:
@@ -85,13 +83,10 @@ python predict.py --input "data/test_data.csv" --output "results/predictions.csv
 ```
 
 ## Results
-- **Model Performance**:
-  - The LightGBM model performed the best, with an RMSE of 8.75 and MAE of 6.40 on the test set.
-  - The LSTM model performed well with a lower RMSE on long-term predictions, capturing the temporal dependencies better.
   
 - **Visualization**:
   - Predicted vs. Actual PM2.5 values are visualized as line charts.
-  - Feature importance was plotted for non-time-series models (Random Forest and LightGBM).
+  - 
 
 ## Future Work
 - **Model Improvement**: Explore additional features, such as integrating external weather datasets and pollution sources (e.g., satellite data).
